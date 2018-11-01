@@ -1,3 +1,13 @@
+Git basics
+**Must navigate to root directory (contains cleopatra folder) before any of these commands**
+
+Copy repository to current (root) directory
+git clone https://github.com/dylancrispen/cleopatra.git
+
+
+
+
+
 Steps for installing dependencies:
 - Opencv: 
 expand file system
@@ -27,4 +37,3 @@ sudo modprobe bcm2835-v4l2 (note it's V4L2 not V412)
 
 
 Turn off xinit (Desktop GUI) for better quality
-
