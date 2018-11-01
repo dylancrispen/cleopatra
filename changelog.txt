@@ -1,0 +1,37 @@
+﻿10/31/2018 - vumq: Version 1.2.5 - tracking-1.2.5.py, pirecord.py and streamviewer.py
+- Added streaming via ssh.
+
+
+10/29/2018 - vumq: Version 1.2.4 - tracking-1.2.4.py and pirecord.py
+- Replaced opencv VideoCapture and VideoWriter with picamera package
+- Added higher resolution recording
+- Configured for the new camera case
+
+
+
+
+10/23/2018 - vumq: Version 1.2.2 - tracking-1.2.2.py and recording.py
+- Added multithreading for video recording
+- Added recording class to handle recording
+
+
+10/22/2018 - vumq: Version 1.2.1 - tracking_full-1.2.1.py
+- Add “-v” parser for video recording (-v = #video path goes here)
+- Increase frame rate for when it’s not recording
+- Updated README
+- Support for gpio version dropped.
+
+
+10/21/2018 - vumq: Bug fix: 
+- Fix random signs.
+- Added compatibility for pizero (imutils.resize->cv2.resize)
+- Fix resolution.
+- Added better boundaries for max/min servo values.
+
+
+10/20/2018 - vumq: Version 1.2.0 (Design cycle 2) - tracking_full-1.2.0.py
+- Updated using the Adafruit 16 servos bonnet.
+- Added headless mode.
+- Added linear servo movement based on distance from center.
+- Added keyinterrupt for Ctrl+C.
+- Added targetting rectangle.
