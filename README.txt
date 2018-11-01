@@ -19,6 +19,7 @@ git log
 git reset --hard <commit_name> #get <commit_name> from calling git log
 
 
+
 ***Branching***
 #Note: This was written by memory, for more (better) info check out the following:
 #https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
